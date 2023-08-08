@@ -307,7 +307,7 @@ li {
     text-decoration: underline;
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 480px) {
     .nav-links {
         display: none;
     }
